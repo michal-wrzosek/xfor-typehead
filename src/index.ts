@@ -1,3 +1,3 @@
-import { TestComponent } from "./components/TestComponent/TestComponent";
+import { Typehead } from "./components/Typehead/Typehead";
 
-export { TestComponent };
+export { Typehead };

@@ -1,23 +1,20 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 
-import { TestComponent } from "./reactComponentLib";
+import ExampleForm from "./ExampleForm";
 
 const StyledDiv = styled.div`
   padding: 10px;
-  background-color: blue;
-  color: white;
 `;
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <TestComponent text="Styled Component from React library" />
-        <StyledDiv>Example App styled component</StyledDiv>
-      </div>
+      <StyledDiv>
+        <ExampleForm />
+      </StyledDiv>
     );
   }
 }
 
-export default App;
+export default App
